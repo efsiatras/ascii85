@@ -17,4 +17,4 @@ For encoding example.txt:
 
 For decoding example.txt:
 
-`$ ./decasc85 > example.txt`
+`$ ./decasc85 < example.txt`
