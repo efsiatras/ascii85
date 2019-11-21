@@ -12,7 +12,9 @@ It uses five ASCII characters to represent four bytes of binary data (making the
 `$ gcc decasc85.c -o decasc85`
 ### Usage
 For encoding example.txt:
+
 `$ ./encasc85 < example.txt`
 
 For decoding example.txt:
+
 `$ ./decasc85 > example.txt`
