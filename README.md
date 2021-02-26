@@ -7,14 +7,14 @@ Encodes and decodes Ascii85.
 It uses five ASCII characters to represent four bytes of binary data (making the encoded size 1⁄4 larger than the original, assuming eight bits per ASCII character).
 
 ## Compilation
+For encoder:  
 `$ gcc encasc85.c -o encasc85`
 
+For decoder:  
 `$ gcc decasc85.c -o decasc85`
 ## Usage
-For encoding example.txt:
-
+For encoding example.txt:  
 `$ ./encasc85 < example.txt`
 
-For decoding example.txt:
-
+For decoding example.txt:  
 `$ ./decasc85 < example.txt`
